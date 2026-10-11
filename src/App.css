@@ -1,0 +1,87 @@
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.ic{
+     background:red ;
+            height: 28px;
+            width: 28px;
+            line-height: 28px;
+            border: 1px solid white;
+            /* margin-right: 10px; */
+            transition: all .5s;
+            gap: 10px;
+}
+.ic:hover{
+    background: transparent;
+            border: 1px solid white;
+            color: red;
+            transition: all .5s;
+            transform: rotate(50deg);
+}
+.ic {
+  margin-right: 10px; /* ya jitna chahiye gap */
+} 
+
+.img_1{
+    background-size:contain;
+    background: url('gym_1.jpg');
+    height: 650px;
+    width: 100%;
+    background-attachment: fixed;
+    /* position: fixed; */
+    
+    /* object-fit: cover; */
+    /* background-position: center; */
+}
+.text_1{
+    /* height: 500px; */
+    background: black;
+}
+.text_2{
+    background-size: cover;
+}
+.img_2{
+    height: 600px;
+    background-size: cover;
+    background-image: url("https://images.pexels.com/photos/2261477/pexels-photo-2261477.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+.form_1{
+    background-color: rgba(255, 255, 255, 0.426);
+    /* margin-top: 100px; */
+}
+.img_3{
+    height: 600px;
+    width: 100%;
+    background-size: cover; 
+    background-image: url("wal_0.jpg");
+}
+
+.login_img{
+    background-image: url("wal_4.jpg");
+    height: 700px;
+}
+.bgColor{
+    background-color:rgba(255, 255, 255, 0.41);
+}
+
+
+/* echo "# FT-fitness-frontend" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/amit95544/FT-fitness-frontend.git
+
+git push -u origin main
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/amit95544/FT-fitness-frontend.git
+git branch -M main
+git push -u origin main */
+
+
+
+
