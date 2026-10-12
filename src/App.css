@@ -24,16 +24,11 @@ html{
   margin-right: 10px; /* ya jitna chahiye gap */
 } 
 
-.img_1{
-    background-size:contain;
-    background: url('gym_1.jpg');
+.img_1 {
+    background: url('/gym_1.jpg') center center / cover no-repeat;
     height: 650px;
     width: 100%;
     background-attachment: fixed;
-    /* position: fixed; */
-    
-    /* object-fit: cover; */
-    /* background-position: center; */
 }
 .text_1{
     /* height: 500px; */
